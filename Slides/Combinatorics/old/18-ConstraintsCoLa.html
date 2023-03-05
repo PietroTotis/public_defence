@@ -1,0 +1,31 @@
+<h2>
+    3. Constraints
+</h2>
+<div style="font-size: 0.75em;">
+    <ul>
+        <li>
+            Positional constraints - specify the object or multiset in a specific position.
+            <div class="fragment example" style="text-align: left;">
+                <div style="font-size: 0.8em;line-height:1.1em;font-family: monospace;">
+                    universe people = {ann, bob, carl, dan}; <br>
+                    queue in [people]; #queue = 4; <br>
+                    queue[1] in {ann, dan};
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="fragment">
+        Towards reasoning:
+        <ul>
+            <li class="fragment">
+                Size constraints allow us to reason over cardinality of sets without looking at individual objects
+            </li>
+            <li class="fragment">
+                Positional constraints break symmetries in the assignment of variables
+            </li>
+            <li class="fragment">
+                Counting constraints present a symmetry in the assignment of variables
+            </li>
+        </ul>
+    </div>
+</div>

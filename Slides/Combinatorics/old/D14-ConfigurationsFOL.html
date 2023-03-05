@@ -1,0 +1,30 @@
+<h2>
+    2. Configurations - First order logic
+</h2>
+<div style="font-size: 0.7em;">
+    Unordered configurations are problematic in FOL because predicates and constants are always labelled
+    (distinguishble).
+</div>
+<div class="fragment example" style="font-size: 0.7em;">
+    Sets (and multisets) configuration require additional constraints:
+    $$ group(w_1)\land\dots\land group(w_5)\land w_1\\< w_2\land w_2\\< w_3\land\dots\land w_4\\< w_5 $$ Sets of sets
+        cannot be encoded at all: <ul>
+        <li class="fragment">
+            Using predicates to represent the groups distinguishes them by the predicate name:
+            $group_1/1,group_2/1,group_3/1$. <br>
+            Assigning Alice to $group_1$ is different from
+            $group_3$.
+
+        </li>
+        <li class="fragment">
+            Using constants to represent the groups distinguishes them by the constant name: $assign(Alice,G_1),
+            assign(Bob,G_2),\dots$ <br>
+            Assignments
+            that
+            only swap the name of
+            the constant are the
+            same partition in groups but they are counted as a different assignment</div>
+</li>
+
+</ul>
+</div>

@@ -1,0 +1,28 @@
+<h2>
+    3. Constraints - First order logic
+</h2>
+
+
+<div class="example" style="font-size: 0.7em; text-align: left;">
+    <span class="fragment">
+        Consider <em>counting</em> constraints, e.g. "At least two TVs are defective".
+        In FOL we have to explicitly write down the combinations of variables that satisfy the count.
+    </span>
+    <span class="fragment">
+        Let $tv_1,\dots,tv_5$ be the variables representing the subset of purchased TVs.
+    </span>
+    <span class="fragment">
+        To specify that <em>exactly</em> two of the purchased TVs are defective we constrain the domain of the
+        variables:
+    </span>
+    <span class="fragment">
+
+        $$ \mathit{df}(tv_1)\land \mathit{df}(tv_2) \land \lnot\mathit{df}(tv_3)\land \lnot \mathit{df}(tv_4)\land \lnot
+        \mathit{df}(tv_5))\lor $$
+        $$ \mathit{df}(tv_1)\land \lnot\mathit{df}(tv_2) \land \mathit{df}(tv_3)\lnot \mathit{df}(tv_4)\land \lnot
+        \mathit{df}(tv_5)) $$
+        $$ \lor \dots\lor $$
+        $$ \lnot \mathit{df}(tv_1)\land \lnot \mathit{df}(tv_2) \land \lnot\mathit{df}(tv_3)\land \mathit{df}(tv_4)\land
+        \mathit{df}(tv_5) $$
+    </span>
+</div>

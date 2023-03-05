@@ -1,0 +1,48 @@
+<h2>3. Constraints</h2>
+
+
+<div>Three types of constraints:</div>
+<div style="position:relative; width:100%; height:100%; margin:0 auto;">
+    <div class="fragment fade-left fade-in-then-out" data-fragment-index="1"
+        style="position:absolute;top:0;left:10%;width:80%;">
+        <div style="display:flex;align-items:baseline;justify-content: center;">
+            <div>
+                <img src="img/Copia di truck-85.svg">
+                <pre style="margin: 0%;">
+                    <code data-trim data-noescape style="font-size:0.8em;">
+                        #purchase = 5;
+                    </code>
+                </pre>
+                <div>1. Size constraints</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fragment fade-left fade-in-then-out" data-fragment-index="2"
+        style="position:absolute;top:0;left:10%;width:80%;">
+        <div style="display:flex;align-items:baseline;justify-content: center;">
+            <div style="display:flex; flex-direction: column;width:fit-content;">
+                <img src="img/pos-constr.svg">
+                <pre style="margin: 0%;"><code data-trim data-noescape style="font-size:0.8em;">
+                                purchase[2] = defective;
+                                </code>
+                            </pre>
+                <div>2. Positional constraints</div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" fragment fade-left fade-in-then-out" data-fragment-index="3"
+        style="position:absolute; top:0;left:10%;width:80%;">
+        <div style="display:flex;align-items:baseline;justify-content: center;">
+            <div style="display:flex; flex-direction: column;width:fit-content;">
+                <img src="img/truck-85.svg">
+                <pre style="margin: 0%;"><code data-trim data-noescape style="font-size:0.8em;">
+                #(purchase & defective) >= 2;
+            </code>
+        </pre>
+                <div>3. Counting constraints</div>
+            </div>
+        </div>
+    </div>
+</div>

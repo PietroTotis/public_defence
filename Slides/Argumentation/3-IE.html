@@ -5,15 +5,13 @@
         <div style="width:55%">
             <pre class="ampl">
                 <code  data-trim data-noescap>
-0.3::friend_brings_umbrella.
-¬umbrella :- friend_brings_umbrella.
+                    0.4::rain. 0.7::wind. 0.6::remember.
+                    umbrella :- rain, remembers, not wind.
 </code></pre>
-            <span> ↓ </span>
-            <pre class="ampl"><code data-trim data-noescap>
-0.3::friend_brings_umbrella.
-umbrella:-umbrella_pos, not umbrella_neg.
-umbrella_pos :- remember, rain, not wind.
-umbrella_neg :- friend_brings_umbrella.
+            <span class="fragment current-visible" data-fragment-index="1"> ↓ </span>
+            <pre class="ampl fragment current-visible" data-fragment-index="1"><code data-trim data-noescap>
+                0.3::friend_brings_umbrella.
+                ¬umbrella :- friend_brings_umbrella.
     </code></pre>
             <span class=" fragment fade-out" data-fragment-index="1" style="font-size:0.75em">
                 Without inhibition:

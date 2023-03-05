@@ -1,0 +1,23 @@
+<h2>
+    1. Multisets - First order logic
+</h2>
+<div class="fragment">
+    In First-order logic even sets are not first-class citizens.
+</div>
+<div style="font-size: 0.8em;">
+    <div class="fragment">
+        Unary predicates, e.g. <span style="font-size:0.75em"> $worker(Alice),\dots,worker(Nick)$</span>, can group
+        constants into sets, but we cannot assign sets to variables.
+    </div>
+    <div class="fragment">
+        Constants are always <em>distinguishable</em>: no multisets. We can only use predicates/functions to map each
+        constant to the number of copies.
+    </div>
+    <div class="fragment example" style="font-size: 0.8em;">
+        $letter(B,1), letter(N,2), letter(A,3)$
+    </div>
+    <div class="fragment">
+        But this requires explicit extra logic rules to manipulate this information.
+        <!-- For example, constraints that avoid using more copies than available. -->
+    </div>
+</div>

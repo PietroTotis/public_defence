@@ -1,0 +1,32 @@
+<h3>
+    1. Multisets - Constraint Modelling Languages
+</h3>
+<div>
+    Constraint modelling languages have better support for sets, but multiset are still no first-class citizens.
+</div>
+
+<div style="font-size:0.7em">
+
+    <div class="fragment" data-fragment-index="1">
+        Essence<sup>[1]</sup> is a constraint language designed to specify combinatorial problems and includes types for
+        multisets, but limited.
+    </div>
+    <div class="fragment example" style="text-align:left" data-fragment-index="2">
+        <div>
+            Multiset type: <code>letting M be mset(B,A,N,A,N,A)</code> ✓ <br>
+            <code style="margin-left:8.5em">find s : sequence (size 6) of M</code> ✕
+        </div>
+
+        <div class="fragment">
+            Unnamed types: <code>letting ns be new type of size 2</code> &#8594; <code>ns={n1,n2}</code>
+        </div>
+    </div>
+</div>
+<hr class="fragment" data-fragment-index="1">
+
+<ol style="font-size: 0.4em;">
+    <li class="fragment" data-fragment-index="1">
+        A.M.Frisch, W.Harvey, C.Jefferson, B.Martínez-Hernández, and I.Miguel, "Essence: A constraint language for
+        specifying combinatorial problems", Constraints, vol. 13, no. 3, pp. 268–306, 2008
+    </li>
+</ol>

@@ -1,0 +1,402 @@
+<h2>
+    2. Configurations
+</h2>
+
+
+<div class="def" style="font-size: 0.7em;">
+    Configurations<sup>[1]</sup> define how the objects from a (multi)set are arranged together in a
+    configuration.
+</div>
+
+
+<table style="font-size: 0.6em;" id="nolines">
+    <tr>
+        <td></td>
+        <td colspan="2">
+            Level 1
+        </td>
+        <td>
+            Level 2
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            Repetition
+        </td>
+        <td>
+            No repetition
+        </td>
+        <td>
+            No repetition
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            Ordered</td>
+        <td>
+            <em class="fragment " data-fragment-index="1">Sequence</em>
+        </td>
+        <td>
+            <em class="fragment" data-fragment-index="2">Permutation</em>
+        </td>
+        <td>
+            <em class="fragment" data-fragment-index="5">Composition</em>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table class="fragment conf" data-fragment-index="1">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+
+            <table class="fragment conf" data-fragment-index="2">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="fragment conf" data-fragment-index="5">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color:teal;"></div>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:aquamarine;"></div>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Unordered</td>
+        <td>
+            <em class="fragment" data-fragment-index="3">Multisubset</em>
+        </td>
+        <td>
+            <em class="fragment" data-fragment-index="4">Subset</em>
+        </td>
+        <td>
+            <em class="fragment conf" data-fragment-index="6">Partition</em>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table class="fragment conf" data-fragment-index="3">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="fragment conf" data-fragment-index="4">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="fragment conf" data-fragment-index="6">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color:teal;"></div>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:aquamarine;"></div>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- <table style="font-size: 0.7em;">
+    <tr>
+        <td class="fragment conf" data-fragment-index="1">
+            Ordered
+        </td>
+        <td class="fragment conf" data-fragment-index="2">
+            Unordered
+        </td>
+    </tr>
+    <tr>
+        <td class="fragment conf" data-fragment-index="1">
+            <table class="fragment conf" data-fragment-index="1">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+        <td class="fragment conf" data-fragment-index="2">
+            <table class="fragment conf" data-fragment-index="2">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td style="opacity: 0;">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="fragment conf" data-fragment-index="3">
+            Without repetition
+        </td>
+        <td class="fragment conf" data-fragment-index="4">
+            With repetition
+        </td>
+
+    </tr>
+    <tr>
+        <td class="fragment conf" data-fragment-index="3">
+            <table class="fragment conf" data-fragment-index="3">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+
+        </td>
+        <td class="fragment conf" data-fragment-index="4">
+            <table class="fragment conf" data-fragment-index="4">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="fragment conf" data-fragment-index="5">
+        <td>
+            Of level 1
+        </td>
+        <td class="fragment conf" data-fragment-index="6">
+            Of level 2
+        </td>
+
+    </tr>
+    <tr>
+        <td class="fragment conf" data-fragment-index="5">
+            <table class="fragment conf" data-fragment-index="5">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+        <td class="fragment conf" data-fragment-index="6">
+            <table class="fragment conf" data-fragment-index="6">
+                <tr class="slots">
+                    <td>
+                        <div class="circle" style="background-color: tomato;"></div>
+                        <div class="circle" style="background-color:teal;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:yellowgreen;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:cornflowerblue;"></div>
+                    </td>
+                    <td>
+                        <div class="circle" style="background-color:darkorchid;"></div>
+                        <div class="circle" style="background-color:aquamarine;"></div>
+                    </td>
+                </tr>
+                <tr class="positions">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table> -->
+<hr style="margin: 0px;">
+<ol style="font-size: 0.4em;">
+    <li>
+        R.P.Stanley, "Enumerative Combinatorics Volume 1 second edition." Cambridge studies in advanced
+        mathematics,
+        2011.
+    </li>
+</ol>

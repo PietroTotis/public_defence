@@ -1,0 +1,34 @@
+<h2>
+    3. Constraints
+</h2>
+
+<div style="font-size:0.8em">
+    In CoLa there are 3 types of constraints:
+    <ul>
+        <li class="fragment" data-fragment-index="1"> Size constraints - define the size of multisets and
+            configurations.
+            <div class="fragment example" data-fragment-index="2" style="text-align: left;">
+                <div style="font-size: 0.8em;line-height:1.1em;font-family: monospace;">
+                    labelled property workers; #workers = 14;<br>
+                    groups in {{workers}};<br>
+                    #groups = 3; <br>
+                    <span class="fragment" data-fragment-index="4">#(#part = 7) = 1; #(#part = 5) = 1; #(#part = 2) =
+                        1;</span>
+                </div>
+            </div>
+
+        </li>
+        <li class="fragment" data-fragment-index="3">
+            Counting constraints - specify the number of objects (sets) with a property in a configuration.
+            <div class="fragment example" data-fragment-index="5" style="text-align: left;">
+                <div style="font-size: 0.8em;line-height:1.1em;font-family: monospace;">
+                    labelled property tvs; #tvs = 12; <br>
+                    property defective; #(tvs & defective) = 3; <br>
+                    purchase in {tvs}; #purchase = 5; <br>
+                    #(purchase & defective) >= 2; <br>
+                    </code>
+                </div>
+
+        </li>
+    </ul>
+</div>

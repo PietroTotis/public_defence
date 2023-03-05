@@ -1,0 +1,44 @@
+<h2 data-id="title">2A. Modelling Beliefs</h2>
+
+<img data-id="diagram" src="img/margs.svg">
+
+
+<div class="box-grid">
+    <div class="box-body fragment" style="border-color: #BF616A;" data-fragment-index="1">
+        <div class="box-title" style="border-color: #BF616A; background-color: #bf616a91;">Research
+            question 2A</div>
+        <div class="box-text">
+            Can probabilistic logic
+            programming model
+            probabilistic argumentation
+            problems?</div>
+    </div>
+    <div class="box-body fragment" style="border-color: #EBCB8B;" data-fragment-index="3">
+        <div class="box-title" style="border-color: #EBCB8B; background-color: #ebcb8ba8; ">
+            Example</div>
+        <div class="box-text">
+            <pre><code data-trim data-noescape>
+                0.6::bias(ht_X). 
+                0.8::bias(ht_Y).
+                0.4::bias(exp). 
+                0.2::bias(noise).
+                arg(X):-bias(X).
+                0.7::¬arg(ht_Y):- arg(ht_X).
+                0.4::¬arg(ht_X):- arg(ht_Y).
+                0.8::¬arg(ht_Y):- arg(noise).
+                0.9::¬arg(ht_X):- arg(exp).
+                query(arg(X)).
+                </code>
+        </div>
+    </div>
+    <div class="box-body fragment" style="border-color: #A3BE8C;font-size:0.9em; margin:5px"  data-fragment-index="2">
+        <div class="box-title" style="border-color: #A3BE8C; background-color: #a3be8ca4;">Contribution 2A
+        </div>
+        <div class="box-text">
+            A novel mapping from
+            probabilistic argumentation
+            problems to PLP programs
+            based on rules with negated
+            head (inhibition eﬀect).</div>
+    </div>
+</div>

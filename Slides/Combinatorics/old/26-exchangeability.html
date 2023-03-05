@@ -1,0 +1,24 @@
+<h2>
+    4. Exchangeability
+</h2>
+
+<div class="def" style="font-size:0.6em">
+    Exchangeability is invariance under permutations: <br>
+    A tuple variables $V = \langle v_1, v_2,\dots, v_n \rangle$ is
+    exchangeable if for all satisfying assignments $\langle d_1,d_2,\dots,d_n\rangle$ and
+    permutations $\pi$ of $\{1,\dots , n\}$, $\langle d_{\pi(1)},d_{\pi(2)},\dots, d_{\pi(n)}\rangle$
+    is a satisfying assignment.
+</div>
+<div class="fragment example" style="font-size:0.6em">
+    The three variables representing the groups of workers are exchangeable: let $G_7$ be the set with 7 workers, $G_5$
+    with 5 and $G_2$ with 2, then all permutations:
+    $$
+    \begin{align}
+    &\langle v_1=G_7, v_2=G_5,v_3=G_2\rangle,\\
+    &\langle v_1=G_5, v_2=G_7,v_3=G_2\rangle,\\
+    &\dots,\\
+    &\langle v_1=G_2, v_2=G_5,v_3=G_7\rangle\\
+    \end{align}
+    $$
+    are satisfying assignmets: $v_1,v_2,v_3$ are exchangeable.
+</div>

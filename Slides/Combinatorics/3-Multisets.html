@@ -1,0 +1,26 @@
+<h2>1. Multisets</h2>
+
+<div class="fragment" data-fragment-index="1">In a set all elements are distinguishable (unique label).</div>
+
+<div class="fragment" data-fragment-index="1" style="display:flex; justify-content:left;">
+    <pre style="width:35%; height:fit-content; margin: 5%"><code data-trim data-noescape  >
+    labelled property tvs;
+    property defective;
+    #tvs = 12;
+    #(tvs & defective) = 3;
+    </code>
+    </pre>
+    <img src="img/tvs.svg" width="30%">
+</div>
+
+<div class="fragment" data-fragment-index="2">In a multiset elements can have identical copies.</div>
+<div class="fragment" data-fragment-index="2" style="display:flex; justify-content:left;">
+    <pre style="width:35%; height:fit-content; margin: 5%"><code data-trim data-noescape>
+    property tvs;
+    property defective;
+    #tvs = 12;
+    #(tvs & defective) = 3;
+    </code>
+    </pre>
+    <img src="img/indist.svg" width="30%">
+</div>

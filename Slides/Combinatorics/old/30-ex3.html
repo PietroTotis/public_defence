@@ -1,0 +1,27 @@
+<h2>
+    CoSo
+</h2>
+<div style="font-size: 0.6em;">
+    When variables are exchangeable we can propagate constraints.
+    <div class="fragment example" style="font-size: 1em;">
+        $\#\mathit{defective}\land \mathit{purchase} \geq 2$:
+        propositionalize to cases $=2$ and $=3$
+    </div>
+    <div class="fragment example" style="font-size: 1em;">
+        $P_1$ propagates $\#\mathit{defective}\land \mathit{purchase} = 2$:
+        Variables: $V=\langle tv_1,tv_2,tv_3,tv_4,tv_5\rangle$<br>
+        Domains: $D=\langle DFs,DFs,\lnot DFs,\lnot DFs,\lnot DFs\rangle$<br>
+    </div>
+
+    <div class="fragment example" style="font-size: 1em;">
+        $P_2$ propagates $\#\mathit{defective}\land \mathit{purchase} = 3$:
+        Variables: $V=\langle tv_1,tv_2,tv_3,tv_4,tv_5\rangle$<br>
+        Domains: $D=\langle DFs,DFs,DFs,\lnot DFs,\lnot DFs\rangle$<br>
+    </div>
+</div>
+
+<div class="container">
+    <div id="frame3"></div>
+    <img src="img/coso.png" style="
+max-width: 20%;">
+</div>
