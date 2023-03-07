@@ -1,2 +1,2 @@
 ## Public Defence
-Wednesday 8th March, 12:30 CET
+Wednesday 8th March, 13:30 CET
